@@ -21,7 +21,7 @@ example.html
 
 example.js
 ```
-var toolbar = require('../')
+var toolbar = require('popup-toolbar')
 //toolbar.options = {} // page toolbar option defaults
 
 var tb = toolbar(document.querySelector('div#content-option'), 
