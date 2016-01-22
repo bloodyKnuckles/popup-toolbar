@@ -2,6 +2,8 @@
 
 A toolbar that fades up and fades down related to an element.
 
+Inspired by [Toolbar.js](http://paulkinzett.github.io/toolbar/)
+
 ### example
 
 example.html
