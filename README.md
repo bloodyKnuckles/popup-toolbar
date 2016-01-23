@@ -1,6 +1,7 @@
 # popup-toolbar
 
-A toolbar that fades up and fades down related to an element.
+Load a toolbar as shown below with icons and event handlers, which fades up when activated and fades
+down when deactivated in relation to action on a specified element.
 
 Inspired by [Toolbar.js](http://paulkinzett.github.io/toolbar/)
 
