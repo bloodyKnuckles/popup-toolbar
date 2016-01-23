@@ -1,6 +1,6 @@
 {
   "name": "popup-toolbar",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A toolbar that fades up and fades down related to an element.",
   "main": "index.js",
   "directories": {
