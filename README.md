@@ -9,6 +9,13 @@ Inspired by [Toolbar.js](http://paulkinzett.github.io/toolbar/)
 
 example.html
 ```
+<html>
+<head>
+<link href="example.css" rel="stylesheet">
+<link href="icons.css" rel="stylesheet">
+</head>
+<body>
+
 <div id="toolbar-tools" class="hidden">
   <a href="#"><i class="icons icon-airplane"></i></a>
   <a href="#"><i class="icons icon-bus"></i></a>
@@ -17,10 +24,13 @@ example.html
   <a href="#"><i class="icons icon-walk"></i></a>
 </div>
 <div id="content-option" class="toolbar-home"><i class="icons icon-cog"></i></div>
-<script type="text/javascript" src="bundle.js"></script>
+<script type="text/javascript" src="example.bundle.js"></script>
+
+</body>
+</html>
 ```
 
-example.js
+example.js (before bundling)
 ```
 var toolbar = require('popup-toolbar')
 //toolbar.options = {} // page toolbar option defaults
@@ -32,8 +42,12 @@ var tb = toolbar(document.querySelector('div#content-option'),
       evt.preventDefault()
       console.log(this)
     }
-}
+  }
+)
 ```
+
+[Demo 1](http://bloodyknuckles.neocities.org/popuptoolbar/)
+[Demo 2](http://bloodyknuckles.neocities.org/popuptoolbar/toolbarpopup.html)
 
 ### license
 
