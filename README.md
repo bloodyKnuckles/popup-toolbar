@@ -46,7 +46,7 @@ var tb = toolbar(document.querySelector('div#content-option'),
 )
 ```
 
-[Demo 1](http://bloodyknuckles.neocities.org/popuptoolbar/)
+[Demo 1](http://bloodyknuckles.neocities.org/popuptoolbar/),
 [Demo 2](http://bloodyknuckles.neocities.org/popuptoolbar/toolbarpopup.html)
 
 ### license
